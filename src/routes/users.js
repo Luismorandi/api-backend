@@ -1,7 +1,7 @@
 import { Router } from "express";
 import { getUsers } from "../controllers/usersController.js";
-const products = Router();
+const users = Router();
 
-products.get("/", getUsers);
+users.get("/", getUsers);
 
-export default products;
+export default users;
